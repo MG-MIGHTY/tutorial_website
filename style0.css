@@ -1,25 +1,43 @@
+html, body{
+	height: 105%;
+	margin: 0;
+}
+
 .navbar {
+	height: 40px;
 	background-color: black;
+	display: block;
+}
+
+.head_paragraph {
+	float: left;
+	padding: 8px 16px;
 	color: white;
-	height: 30px;
-	border-style: solid;
-	border-width: 3px;
-	border-color: red;
 }
 
-.slideshow-container {
-	background-color: grey;
-	height: 800px;
+.image-container {
+	position: relative;
+  margin: auto;
 
 }
 
-.article_container {
-	height: 400px;
-
-
+#img1 {
+	width: 100%;
 }
 
-.footer_container {
-	height: 100px;
+.article-container {
+	max-width: 600px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.footer-container {
+	display: block;
 	background-color: black;
+	color: aliceblue;
+	font-family: serif;
+	text-align: center;
+	padding: 10px
 }
