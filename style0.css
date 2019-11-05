@@ -3,7 +3,7 @@ html, body{
 	margin: 0;
 }
 
-.navbar {
+.navbar-container {
 	height: 40px;
 	background-color: black;
 	display: block;
